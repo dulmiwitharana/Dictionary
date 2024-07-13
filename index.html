@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Dictionary</title>
+    
+
+</head>
+<body>
+    
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="images/logo_transparent.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <audio id="sound"></audio>
+    
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Type the word here.." id="inp-word"/>
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="result" id="result">
+            <!-- Search results will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
