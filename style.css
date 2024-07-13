@@ -28,13 +28,13 @@ body {
     position: fixed; /* Fix the navigation bar at the top */
     top: 0;
     left: 50%;
-    transform: translateX(-50%); /* Center the navigation bar */
-    z-index: 1000; /* Ensure the navigation bar stays on top */
+    transform: translateX(-50%); 
+    z-index: 1000; 
 }
 
 .navbar .logo img {
-    max-height: 70px; /* Increase the size of the logo */
-    margin-left: 20px; /* Space between logo and edge */
+    max-height: 70px;
+    margin-left: 20px; 
 }
 
 .navbar ul {
@@ -42,7 +42,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 0;
-    margin: 0; /* Remove margin for a cleaner look */
+    margin: 0; 
 }
 
 .navbar ul li {
