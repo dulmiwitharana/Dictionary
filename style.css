@@ -59,7 +59,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    background-color: #362b7a; /* Adjust hover color as needed */
+    background-color: #362b7a; 
     border-radius: 5px;
 }
 
@@ -71,7 +71,7 @@ body {
     box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
     text-align: center;
     margin-top: 180px; 
-    /* margin-bottom: 10px; */
+    
 }
 
 .search-box {
@@ -101,7 +101,7 @@ body {
 }
 
 .search-box button:hover {
-    background-color: #362b7a; /* Adjust the hover color as needed */
+    background-color: #362b7a; 
     cursor: pointer;
 }
 
