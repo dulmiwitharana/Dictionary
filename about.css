@@ -95,15 +95,7 @@ body {
     text-align:center ;
     
 }
-/* .tec-box{
-    text-align:center ;
-}
-.features-box,  .vision-box h2{
-    text-align:center ;
-} */
-/* .features-box, .tec-box, .vision-box p{
-    text-align:left ;
-} */
+
 
 .about-box h1, .tec-box h2 , .features-box h2 ,.vision-box h2 {
     color: #4c389c;
@@ -132,7 +124,7 @@ body {
 }
 
 
-/* contact page css */
+
 
 
 .contact_container {
